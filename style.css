@@ -6,15 +6,23 @@ body {
 }
 
 .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
     text-align: center;
-    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: #333;
+main {
+    text-align: center;
 }
 
-p {
+footer {
+    text-align: center;
+    margin-top: 20px;
     color: #666;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
